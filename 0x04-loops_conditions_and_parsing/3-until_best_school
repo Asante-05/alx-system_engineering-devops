@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#bash to print Best School 10 times using until conditional
+i=1
+until [ $i -ge 10 ]
+do
+	echo "Best School"
+	i=$(( i + 1 ))
+done
